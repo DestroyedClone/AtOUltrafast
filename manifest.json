@@ -1,7 +1,7 @@
 {
   "name": "Ultrafast",
   "version_number": "0.1.0",
-  "website_url": "",
+  "website_url": "https://github.com/DestroyedClone/AtOUltrafast",
   "description": "Enables ultrafast game speed setting.",
   "dependencies": [
     "BepInEx-BepInExPack_AcrossTheObelisk-5.4.21",
