@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{E1F808CF-2E87-474D-BCCD-C5EDCA3D782E}"
 	ProjectSection(SolutionItems) = preProject
+		obj\Debug\netstandard2.1\AtOUltrafast.dll = obj\Debug\netstandard2.1\AtOUltrafast.dll
 		CHANGELOG.md = CHANGELOG.md
 		manifest.json = manifest.json
 		README.md = README.md

@@ -3,12 +3,12 @@ using BepInEx.Configuration;
 
 namespace AtOUltrafast
 {
-    [BepInPlugin("com.DestroyedClone.Ultrafast", "Ultrafast", "0.1.0")]
+    [BepInPlugin("com.DestroyedClone.Ultrafast", "Ultrafast", "0.1.1")]
     public class AtOUltrafastPlugin : BaseUnityPlugin
     {
         public static ConfigEntry<bool> cfgCUltrafastRequiresFast;
 
-        public void Start()
+        public void Awake()
         {
             cfgCUltrafastRequiresFast = Config.Bind("", "Ultrafast Requires Fast", true, "If true, ultrafast will only be enabled if the game speed is already set to fast. If false, then it will always be enabled.");
 
